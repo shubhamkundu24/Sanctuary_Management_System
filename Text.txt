@@ -1,0 +1,48 @@
+Hello Sirjit & Shubham
+
+
+https://themewagon.github.io/petsitting/index.html
+
+
+Website 1 :- Sanctuary Management System
+
+
+
+
+Your task is to create a user-friendly and informative website for an animal 
+sanctuary that caters to both the needs of the sanctuary staff and 
+potential visitors. The sanctuary aims to provide a platform where users 
+can engage with the organization, learn about the animals under their 
+care, and contribute to their cause.
+Core Features:
+1. User Registration/Login: Implement a simple login/signup system 
+for validation (UI Only).
+2. Animal Profiles Page: Create basic animal profiles displaying 
+essential information such as name, species, age, and a brief 
+description of each animal.
+3. Medical Records: Include a section where sanctuary staff can 
+manage basic medical records for each animal. This could be as 
+simple as a table with columns for date, treatment, and notes.
+4. Contact Form Page: Create a contact form allowing users to send 
+messages or inquiries to sanctuary staff and display a message 
+upon submission.
+5. Tutorials Section Page: Include a beginner-friendly tutorial section 
+with tips on pet care, wildlife conservation, or how to get involved 
+with the sanctuary. Keep the content concise and easy to 
+understand for newcomers.
+6. Social Media Links: Include icons linking to the sanctuary's social 
+media profiles (e.g., Facebook, Instagram). 
+Brownie Points:
+1. Adoption System: Enhance the animal profiles to include an 
+adoption status. Add a button or form for users to express interest in 
+adopting an animal. When an animal is adopted, update its profile to 
+reflect its adoption status.
+2. Responsive Design: Ensure the website layout adjusts to different 
+screen sizes, making it mobile-friendly. 
+3. Gallery Page: Create a dedicated page within the website where 
+users can access the image gallery. This page should have a layout 
+that displays multiple images in a visually appealing manner.
+4. Feedback Form: Create a feedback form where users can provide 
+suggestions or report issues with the website. Use a basic form 
+submission method to collect feedback and display a thank-you 
+message upon submission.

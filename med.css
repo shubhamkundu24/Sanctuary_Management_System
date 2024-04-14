@@ -1,0 +1,123 @@
+body{
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Spartan', sans-serif;
+}
+
+body{
+    width:100%;
+}
+
+/* Header Start */
+
+.logo{
+    height:80px;
+}
+
+#header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 80px;
+    background:#e3e6f3;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999; 
+    position:sticky;
+    top:0;
+    left:0;
+
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position:relative;
+
+}
+
+#navbar li a{
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    color:#1a1a1a;
+    transition:0.3s ease;
+    font-size:22px;
+}
+
+#navbar li a:hover, #navbar li a.active{
+    color:#088178;
+}
+
+#navbar li a.active::after, #navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height:2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left:20px;
+}
+
+td{
+    color:white;
+}
+
+#med-heading{
+    font-size:60px;
+    font-weight:700;
+    text-align:center;
+    margin-top:20px;
+    color:white;
+}
+
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}

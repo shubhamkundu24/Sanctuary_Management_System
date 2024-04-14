@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* display: grid; */
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Spartan', sans-serif;
+}
+
+body{
+    width:100%;
+}
+
+/* Header Start */
+
+.logo{
+    height:80px;
+}
+
+#header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 80px;
+    background:#e3e6f3;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999; 
+    position:sticky;
+    top:0;
+    left:0;
+
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position:relative;
+
+}
+
+#navbar li a{
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    color:#1a1a1a;
+    transition:0.3s ease;
+    font-size:22px;
+}
+
+#navbar li a:hover, #navbar li a.active{
+    color:#088178;
+}
+
+#navbar li a.active::after, #navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height:2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left:20px;
+}
+
+h2 {
+    color: #fff;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    max-width: 390px;
+    width:300px;
+    
+}
+
+#adopt-heading{
+    font-size:50px;
+    text-align:center;
+    margin-top:30px;
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input,
+form select {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    outline: none;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #1a75ff;
+}
+
+form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.2 7.9c-.4-.4-1-.4-1.4 0l-4.8 4.8-4.8-4.8c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l5.3 5.3c.2.2.5.3.7.3s.5-.1.7-.3l5.3-5.3c.4-.4.4-1 0-1.4z" fill="%23007bff"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    background: -webkit-linear-gradient(right, #003366, #004080, #0059b3, #0073e6);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+form input[type="submit"]:hover {
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+}
+
+#message {
+    color: #fff;
+    margin-top: 20px;
+}
+
+#adoptionForm{
+    margin-top:60px;
+    margin-left:37%;
+    width:100%;
+}

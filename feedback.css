@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family:'Spartan', sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Spartan', sans-serif;
+}
+
+body{
+    width:100%;
+}
+
+/* Header Start */
+
+.logo{
+    height:80px;
+}
+
+#header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 80px;
+    background:#e3e6f3;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999; 
+    position:sticky;
+    top:0;
+    left:0;
+
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position:relative;
+
+}
+
+#navbar li a{
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    color:#1a1a1a;
+    transition:0.3s ease;
+    font-size:22px;
+}
+
+#navbar li a:hover, #navbar li a.active{
+    color:#088178;
+}
+
+#navbar li a.active::after, #navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height:2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left:20px;
+}
+
+/* input{
+    dd, email, uname
+} */
+
+input[name="fname"], input[name="dd"], input[name="email"], input[name="uname"]{
+    font-family:'Spartan', sans-serif;
+}
+
+.buttons{
+    text-align:center;
+}
+
+
+.container{
+    height:95vh;
+    width:50%;
+    display:fixed;
+    justify-content: center;
+    align-items:center;
+    margin-left:25%;
+    margin-top:50px;
+}
+
+.tab{
+    margin-top:25%;
+}
+
+#regForm {
+    width: 100%;
+    height:500px;
+    /* padding-left:60%; */
+    background-color: #ffffff;
+    margin: 0px auto;
+    /* margin-top:-30%; */
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px
+}
+.step{
+    color:white;
+}
+
+h6{
+    font-size:30px;
+}
+
+#register{
+font-size: 60px;
+  color:black;
+  /* margin-top:-10px; */
+}
+
+h1 {
+    text-align: center
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;-webkit-appearance: none;
+    appearance: none;
+    
+}
+
+
+
+.tab input:focus{
+
+  border:1px solid  rgb(0, 51, 102) !important;
+  outline: none;
+}
+
+input.invalid {
+ 
+    border:1px solid #e03a0666;
+}
+
+.tab {
+    display: none
+    /* margin-top:20%; */
+}
+
+h6{
+    margin-top:-15%;
+}
+
+button {
+    background-color:  rgb(0, 51, 102);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8
+}
+
+button:focus{
+
+  outline: none !important;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+
+.all-steps{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.step {
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    margin-top: 6%;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color:  rgb(0, 51, 102);
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1
+}
+
+
+.step.finish {
+   color: #fff;
+   background:  rgb(0, 51, 102);
+   opacity: 1;
+
+}
+
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.thanks-message {
+    display: none;
+    /* text-align:justify; */
+    /* display: flex; */
+    /* align-items:center; */
+    mardin-top:50px;
+}
